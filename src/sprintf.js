@@ -50,6 +50,10 @@
                     arg = arg()
                 }
 
+		if (get_type(arg) == "undefined") {
+		    return undefined;
+		}
+
                 if (re.not_string.test(match[8]) && re.not_json.test(match[8]) && (get_type(arg) != "number" && isNaN(arg))) {
                     throw new TypeError(sprintf("[sprintf] expecting number but found %s", get_type(arg)))
                 }
