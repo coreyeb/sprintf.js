@@ -6,9 +6,9 @@
   "license": "BSD-3-Clause-Clear",
   "keywords": ["sprintf", "string", "formatting"],
   "authors": ["Alexandru Marasteanu <hello@alexei.ro> (http://alexei.ro/)"],
-  "homepage": "https://github.com/alexei/sprintf.js",
+  "homepage": "https://github.com/coreyeb/sprintf.js.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexei/sprintf.js.git"
+    "url": "git://github.com/coreyeb/sprintf.js.git"
   }
 }
